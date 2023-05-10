@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Laboratorio final</title>
+        <meta charset="utf-8">
+		<script src="index.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="formulario">
+			<h2> Introduzca el nombre de la tabla a consultar: </h2>
+
+			<form id="form" method="POST" action="COnsultarBBDD.php">
+
+			<h3 > Nombre de la tabla <span><em><small> (requerido)</small> </em></span> </h3>
+			<input type="text" id="nombre" name='nombreBBDD' minlength="1" onblur="" required>
+            <input type="submit" name="submit" style="margin-top:20px" class="form-boton" onclick="" value="Consultar"" />
+			</form>
+            
+            <a href="principal.html" ><input type="submit" style="margin-top:20px" class="form-boton"  value="Volver a página principal" /></a>
+		</div>
+    </body>
+</html>
